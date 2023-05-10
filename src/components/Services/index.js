@@ -6,7 +6,7 @@ import backend from "../../assets/images/backend.jpg"
 import mobileapp from "../../assets/images/mobile-app.jpg"
 export const Services = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-10' id="services">
        <h2 className='text-[20px] md:text-3xl  text-center text-primary font-bold' data-aos="fade-up" data-aos-duration="2000">Services</h2>
        <div className='max-w-7xl  h-full mx-auto pl-2 pr-2'>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-8  md:gap-4 lg:gap-4       mt-8 justify-items-center'>

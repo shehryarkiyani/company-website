@@ -2,7 +2,7 @@ import React from 'react'
 import AboutBanner from "../../assets/images/about-banner.png"
 export const About = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-10' id="about">
          <h2 className='text-[20px] md:text-3xl  text-center text-primary font-bold ' data-aos="fade-up" data-aos-duration="2000">About Us</h2>
         <div className='max-w-7xl  h-full mx-auto pl-2 pr-2  grid justify-between items-center align-middle sm:grid-cols-1 md:grid-cols-2   gap-10 '>
       <div className='w-[100%] h-auto  ' data-aos="slide-right" data-aos-duration="2000">

@@ -5,7 +5,7 @@ import work3 from '../../assets/images/carrent.png'
 
 export const Work = () => {
   return (
-    <div className='mt-10 bg-primary relative  w-full pb-10 z-[0]  pt-10'>
+    <div className='mt-10 bg-primary relative  w-full pb-10 z-[0]  pt-10' id="work">
         <h2 className='text-[20px] md:text-3xl  text-center text-[white] font-bold' data-aos="fade-up" data-aos-duration="2000">
             Our Work
         </h2>

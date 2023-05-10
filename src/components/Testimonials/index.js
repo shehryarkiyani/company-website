@@ -28,7 +28,7 @@ export const Testimonials = () => {
         },
       ];
   return (
-    <div className='mt-10'>
+    <div className='mt-10' id="testimonials">
         <h2 className='text-[20px] md:text-3xl  text-center text-primary font-bold' >Testimonials</h2>
  <div className='max-w-7xl  h-full mx-auto pl-2 pr-2 flex justify-center items-center align-middle text-center '>
  <div className='grid md:grid-cols-1 lg:grid-cols-3 gap-8 mt-10 justify-items-center'>
@@ -36,7 +36,7 @@ export const Testimonials = () => {
 {testimonials.map((item)=>{
     return(
         <>
-         <div className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full  shadow-2xl'>
+         <div className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full  shadow-2xl' data-aos="zoom-in" data-aos-duration="2000">
     <p className='text-white font-black text-[48px]'>"</p>
     <div className='mt-1'>
       <p className='text-white tracking-wider text-[18px]'>{item.testimonial}</p>

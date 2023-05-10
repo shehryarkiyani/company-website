@@ -13,9 +13,15 @@ export const Home = () => {
     useEffect(() => {
         AOS.init();
       }, [])
+      const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
   return (
     <div className=''>
-          <Header/>
+          <Header scrollToSection={scrollToSection}/>
 
     
       <div className='mt-[85px] '>
@@ -24,7 +30,7 @@ export const Home = () => {
       <Services/>
       <Work/>
       <Testimonials/>
-        <Footer/>
+        <Footer scrollToSection={scrollToSection}/>
       </div>
       
     </div>
