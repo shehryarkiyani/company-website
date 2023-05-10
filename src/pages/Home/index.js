@@ -7,6 +7,7 @@ import {Services} from "../../components/Services"
 import { Work } from '../../components/Works'
 import logo from "../../assets/images/MyLogo.png"
 import { Link } from 'react-router-dom'
+import {Testimonials} from "../../components/Testimonials"
 import AOS from 'aos';
 export const Home = () => {
     useEffect(() => {
@@ -22,6 +23,7 @@ export const Home = () => {
       <About/>
       <Services/>
       <Work/>
+      <Testimonials/>
         <Footer/>
       </div>
       
