@@ -1,0 +1,6 @@
+export  * from "./Headers/index"
+export * from "./Footer/index"
+export * from "./Hero/index"
+export * from "./Services/index"
+export * from "./About/index"
+export * from "./Works/index"
